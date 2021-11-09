@@ -1,0 +1,43 @@
+{
+  "model_settings": {
+    "input_size": 256,
+    "output_size": 14790,
+    "hidden_size": 4096,
+    "num_layers": 6,
+    "padding" : 50,
+    "dropout": 0.4,
+    "batch_size": 1,
+    "num_workers": 0
+  },
+  "learning_rate_settings":{
+    "learning_rate" : 0.0001
+  },
+  "trans_settings" : {
+    "nhead" : 16 
+  },
+  "train_settings": {
+    "num_iteration": 20
+  },
+  "train_paths": {
+    "path_to_numpy_file_train": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/json_train_saved_numpy/all_files_normalized.npy",
+    "path_to_csv_train": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/target directory/how2sign_train_transformed.txt_2npy.txt"
+  },
+  "val_paths": {
+    "path_to_numpy_file_val": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/json_val_saved_numpy/all_files_normalized.npy",
+    "path_to_csv_val": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/target directory/how2sign_val_transformed.txt_2npy.txt"
+  },
+  "test_paths": {
+    "path_to_numpy_file_test": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/json_test_saved_numpy/all_files_normalized.npy",
+    "path_to_csv_test": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/target directory/how2sign_test_transformed.txt_2npy.txt"
+  },
+  "vocab_file": {
+    "path_to_vocab_file_all": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/text_2_sign/english_vocab/how2sign_train_vocab.txt"
+  },
+  "save_load": {
+    "save_model_folder_path": "/Users/greggfinn/Documents/Fourth Year/Second Semester/EEE4022S/Code/models",
+    "load_model": 0,
+    "load_model_path": "",
+    "load_folder_path": ""
+  },
+  "loss_type": "CrossEntropyLoss"
+}

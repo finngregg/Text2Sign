@@ -1,0 +1,9 @@
+torch
+pytorch-lightning 
+rouge
+nltk
+tensorboardX
+pandas
+spacy
+numpy
+psutil 
