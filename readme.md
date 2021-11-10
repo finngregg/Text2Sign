@@ -17,7 +17,7 @@ This repository contains the code required to translate English text to for sign
 - To deactivate
     - deactivate 
 
--Install requirements.txt
+- Install requirements.txt
     - pip install -r ../requirements.txt
 
 ## Utils
