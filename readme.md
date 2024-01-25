@@ -1,4 +1,4 @@
-# Readme
+# README
 
 This repository contains the code required to translate English text to for sign language using 2D keypoint estimation and the How2Sign ASL dataset.
 
